@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../b.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+background-color: blue;
+color: black;
+}
+.active{
+    background-color: aliceblue;
+    color: black;
+}
+.logo{
+    float: left;
+    width: 110px;
+    height: auto;
+    padding-right: 10px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn1{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    color: aliceblue;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: crimson;
+    color: black;
+}.btn2{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    color: aliceblue;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: cyan;
+    color: black;
+}
+.btn3{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    color: aliceblue;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn3:hover{
+    background-color: deeppink;
+    color: black;
+}
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+.sub-menu ul{
+position: absolute;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
